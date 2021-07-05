@@ -31,17 +31,12 @@ span {
 
 /*Middle Part*/
 
-.middle {
+#bgimg {
   display: flex;
-  width: 100%;
-}
-.middle {
   background-image: url("/food-network-main/images/shapes/7.png");
   background-repeat: no-repeat;
-
   background-position: center;
-  background-size: auto;
-  width: 70%;
+  background-size: 100% 100%;
 }
 
 .contact-button {
@@ -52,3 +47,13 @@ span {
   font-weight: 500;
   padding: 10px 20px;
 }
+.half {
+  width: 50%;
+  padding-left: 10%;
+  
+}
+.half img {
+  width: 80%;
+}
+
+/*end of middle part*/
