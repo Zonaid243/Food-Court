@@ -1,6 +1,54 @@
 body {
   font-family: "Archivo", sans-serif;
+  margin: 0;
 }
 h1 {
-  font-size: 30px;
+  font-size: 70px;
+}
+span {
+  color: rgb(247, 120, 16);
+}
+.flexible-container {
+  display: flex;
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+  padding-left: 5%;
+}
+.half img {
+  width: 80%;
+}
+.order-button {
+  color: whitesmoke;
+  background-image: linear-gradient(orange, rgb(240, 82, 54));
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+/*Middle Part*/
+
+.middle {
+  display: flex;
+  width: 100%;
+}
+.middle {
+  background-image: url("/food-network-main/images/shapes/7.png");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: auto;
+  width: 70%;
+}
+
+.contact-button {
+  color: whitesmoke;
+  background-image: linear-gradient(orange, rgb(240, 82, 54));
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
 }
