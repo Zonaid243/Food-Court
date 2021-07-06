@@ -1,6 +1,7 @@
 body {
   font-family: "Archivo", sans-serif;
   margin: 0;
+  color: rgb(95, 92, 92);
 }
 h1 {
   font-size: 70px;
@@ -50,10 +51,19 @@ span {
 .half {
   width: 50%;
   padding-left: 10%;
-  
 }
 .half img {
   width: 80%;
 }
 
 /*end of middle part*/
+
+/*recipies*/
+
+.recipies {
+  text-align: center;
+  width: 40%;
+  padding-left: 450px;
+  font-size: 18px;
+}
+
