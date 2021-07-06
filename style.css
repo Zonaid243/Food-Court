@@ -3,6 +3,9 @@ body {
   margin: 0;
   color: rgb(95, 92, 92);
 }
+section {
+  display: flex;
+}
 h1 {
   font-size: 70px;
 }
@@ -10,7 +13,6 @@ span {
   color: rgb(247, 120, 16);
 }
 .flexible-container {
-  display: flex;
   width: 100%;
 }
 
@@ -66,4 +68,45 @@ span {
   padding-left: 450px;
   font-size: 18px;
 }
+/*end recipites*/
 
+/*Three-image recipies begin*/
+
+.recipies-img {
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.three-img {
+  width: 20%;
+  margin-right: 6%;
+  margin-left: 6%;
+  border-radius: 5px;
+  
+  box-shadow: 5px 5px 10px gray;
+}
+.seafood {
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 10px;
+  border-color: whitesmoke;
+  border-radius: 10px;
+}
+.salad {
+  width: 100%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  border: 10px;
+  border-color: whitesmoke;
+  border-radius: 10px;
+}
+.spicy-item {
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 10px;
+  border-color: whitesmoke;
+  border-radius: 10px;
+}
+/*Three-image recipies end*/
