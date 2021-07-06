@@ -50,7 +50,6 @@ span {
   font-weight: 50;
   padding: 10px 20px;
   padding-top: 10px;
-  
 }
 .half {
   width: 50%;
@@ -167,6 +166,28 @@ span {
   text-align: center;
   color: rgb(209, 212, 212);
 }
+/*social media icon*/
+.fa {
+  padding: 10px;
+
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #db93e9;
+  color: white;
+}
+
 .name {
   width: 10%;
   height: 5%;
@@ -177,7 +198,7 @@ span {
 .email {
   width: 10%;
   border-radius: 5px;
-  background-color:rgb(236, 215, 215);
+  background-color: rgb(236, 215, 215);
 }
 .comment {
   padding: 4%;
@@ -188,7 +209,7 @@ span {
 }
 .submit-button {
   color: rgb(24, 21, 21);
- background-color: rgb(236, 215, 215);
+  background-color: rgb(236, 215, 215);
   text-decoration: none;
   border-radius: 20px;
   font-weight: 500;
@@ -199,28 +220,5 @@ span {
   padding: 15px;
   font-size: 20px;
 }
-/*social media icon*/
-  .fa {
-  padding: 10px;
-  
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  }
-  .fa-facebook {
-  background: #3B5998;
-  color: white;
-  
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa-instagram {
-  background: #db93e9;
-  color: white;
-}
-
 
 /*contact Us end*/
