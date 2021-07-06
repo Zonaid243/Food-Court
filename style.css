@@ -53,9 +53,16 @@ span {
 .half {
   width: 50%;
   padding-left: 10%;
+  margin: 20px;
+  margin-top: 30px;
 }
-.half img {
-  width: 80%;
+.img {
+  height: 60vh;
+  margin-left: 20%;
+
+}
+.mid-div{
+  width: 50%;
 }
 
 /*end of middle part*/
@@ -81,15 +88,16 @@ span {
   width: 20%;
   margin-right: 6%;
   margin-left: 6%;
-  border-radius: 5px;
+  border-radius: 15px;
   box-sizing: border-box;
   box-shadow: 5px 5px 10px gray;
+   border: 20px solid white;
 }
 .seafood {
   width: 100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  border: 10px;
+ 
   border-color: whitesmoke;
   border-radius: 10px;
 }
@@ -97,7 +105,7 @@ span {
   width: 100%;
   background-size: 80%;
   background-repeat: no-repeat;
-  border: 10px;
+  
   border-color: whitesmoke;
   border-radius: 10px;
 }
@@ -105,19 +113,31 @@ span {
   width: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
-  border: 10px;
+ 
   border-color: whitesmoke;
   border-radius: 10px;
 }
 /*Three-image recipies end*/
 
 /*subscriber begin*/
+
+.subs{
+  text-align: center;
+  border: 10px solid rgb(248, 243, 243);
+  border-radius: 20px;
+  box-shadow: 10px;
+  
+  margin: 40px;
+  padding-bottom: 40px;
+  
+}
 .subscriber{
   
 width: 20%;
  padding-left: 10%;
  padding-top: 10%;
  color: black; 
+ 
   }
 
 
@@ -129,6 +149,7 @@ width: 20%;
   background-color: black;
   text-align: center;
   font-size: 20px;
+  padding: 40px;
 }
 
 
